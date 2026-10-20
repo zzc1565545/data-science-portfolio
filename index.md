@@ -20,6 +20,12 @@ layout: default
     <figcaption><span>01 / Typical and slower journeys</span> P50 is the median. P90 is a time threshold within which at least 90% of journeys would finish under the assumed distribution; it is not a guarantee.</figcaption>
   </figure>
   <div class="finding"><p class="label">The finding</p><p>The bus is <strong>7 minutes faster</strong> than walking at the median, but <strong>10 minutes longer</strong> at P90. Looking only at the typical trip changes the comparison.</p></div>
+  <aside class="data-note" aria-labelledby="ranking-title">
+    <strong id="ranking-title">What changes in the ranking?</strong>
+    <p><b>At P50, fastest to slowest:</b> Bicycle (14) → Public bus (18) → Campus shuttle (20) → Walking (25).</p>
+    <p><b>At P90, fastest to slowest:</b> Bicycle (20) → Walking (28) → Campus shuttle (30) → Public bus (38).</p>
+    <p>All values are assumed minutes. Walking moves from fourth to second, while the bus moves from second to fourth. This compares the supplied reference points, not the chance of one mode beating another on an actual journey.</p>
+  </aside>
   <figure class="secondary">
     <img src="assets/extra-allowance.png" alt="Bar chart of the assumed P90 minus P50 time allowance: public bus 20 minutes, campus shuttle 10, bicycle 6, walking 3. These gaps do not describe the complete distributions." width="2160" height="1368" loading="lazy">
     <figcaption><span>02 / Extra allowance beyond typical time</span> Sorting the gaps makes the additional allowance easy to compare. A short gap does not establish low variance or eliminate extreme delays.</figcaption>
