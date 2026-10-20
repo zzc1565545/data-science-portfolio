@@ -1,0 +1,8 @@
+title: "Zhu Zhicheng | Data Science Portfolio"
+description: "A transparent, reproducible data visualization learning project."
+url: "https://zzc1565545.github.io"
+baseurl: "/data-science-portfolio"
+markdown: kramdown
+exclude:
+  - README.md
+  - PEER_REVIEW.md
