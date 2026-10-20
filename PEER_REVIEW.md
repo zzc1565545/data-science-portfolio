@@ -1,36 +1,41 @@
-# Classmate review - pending
+# Classmate review and follow-up
 
-No classmate feedback has been collected or claimed in this initial version.
-This file is not a fabricated review record.
+Feedback supplied by the portfolio author on **20 October 2026** as feedback
+from a classmate. The classmate's name is not published.
 
-Ask a classmate to inspect the live website and answer:
+## Feedback
 
-1. What question does this project investigate?
-2. What is its main finding?
-3. What is one important limitation?
-4. What specific change would make the site clearer?
-
-After receiving actual feedback, record a date and a short, faithful summary.
-Keep the classmate's identity private unless they consent to publication.
-Make one change that responds to their feedback and commit it with a
-descriptive message. Record the commit hash here. An AI review is useful for
-quality assurance but does not replace the classmate review.
-
-## AI-simulated reader review — 20 October 2026
-
-This is explicitly a simulation produced by OpenAI Codex, not feedback from
-a real classmate. It does **not** complete Practice 09 tasks 04.02–04.03.
-
-- Purpose identified: compare four hypothetical modes at P50 and P90.
-- Main finding identified: the bus is 7 minutes faster than walking at P50
+- **Purpose:** compare four hypothetical commuting modes using P50 and P90.
+- **Main finding:** the public bus is 7 minutes faster than walking at P50,
   but 10 minutes longer at P90.
-- Limitation identified: the values are assumed; there are no observed trips.
-- Simulated suggestion: show both complete rankings in words so a reader
-  does not need to infer the changing positions from the first chart.
-- Improvement implemented: added a “What changes in the ranking?” note
-  listing the two orders, their time values, and a warning against interpreting
-  the ranking as a head-to-head probability.
-- Descriptive commit message:
-  `Clarify complete rankings after an explicitly AI-simulated reader review`
+- **Limitation:** the times are assumed values, not observed journeys.
+- **Suggestion:** show the complete P50 and P90 rankings directly, so readers
+  can immediately see which positions change instead of inferring them from
+  the chart.
 
-Real classmate feedback and a corresponding improvement remain pending.
+## Follow-up improvement
+
+The website already contained a written “What changes in the ranking?” note
+before this feedback was supplied. That existing note is not claimed as a
+new change made after the classmate's feedback.
+
+In this follow-up, a **side-by-side ranking table** was added beneath the two
+written rankings. It explicitly lists:
+
+| Mode | P50 rank | P90 rank | Change |
+| --- | --- | --- | --- |
+| Bicycle | 1st | 1st | No change |
+| Public bus | 2nd | 4th | Down 2 places |
+| Campus shuttle | 3rd | 3rd | No change |
+| Walking | 4th | 2nd | Up 2 places |
+
+This responds to the request to make changing positions visible at a glance.
+The hypothetical-data label and the warning against interpreting ranks as
+head-to-head journey probabilities remain in place.
+
+Descriptive commit message for this follow-up:
+`Add side-by-side rank changes in response to classmate feedback`
+
+The project remains ongoing because it uses hypothetical data. The classmate
+review and this focused presentation improvement do not validate the assumed
+times or establish real transport recommendations.

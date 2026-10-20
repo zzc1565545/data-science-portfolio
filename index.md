@@ -11,7 +11,7 @@ layout: default
 </section>
 
 <section id="project" class="project-section">
-  <div class="section-top"><p class="eyebrow">Selected project / campus commute</p><span class="status">Ongoing · peer review pending</span></div>
+  <div class="section-top"><p class="eyebrow">Selected project / campus commute</p><span class="status">Ongoing · classmate review addressed</span></div>
   <h2 class="section-title">Fast on a typical day.<br>But how much time should you allow?</h2>
   <p class="lead">How does the ranking of four travel modes change when we compare typical journey time with a slower-journey benchmark?</p>
   <aside class="data-note"><strong>Hypothetical data, not a transport study.</strong> These eight time values are hand-assigned for a design exercise. No journeys were observed, and the results are not recommendations about University of Macau transport.</aside>
@@ -24,6 +24,18 @@ layout: default
     <strong id="ranking-title">What changes in the ranking?</strong>
     <p><b>At P50, fastest to slowest:</b> Bicycle (14) → Public bus (18) → Campus shuttle (20) → Walking (25).</p>
     <p><b>At P90, fastest to slowest:</b> Bicycle (20) → Walking (28) → Campus shuttle (30) → Public bus (38).</p>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="Comparison of P50 and P90 rankings">
+      <table>
+        <caption>Rank changes at a glance — rank 1 is fastest at that benchmark</caption>
+        <thead><tr><th scope="col">Mode</th><th scope="col">P50 rank</th><th scope="col">P90 rank</th><th scope="col">Change</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Bicycle</th><td>1st</td><td>1st</td><td>No change</td></tr>
+          <tr><th scope="row">Public bus</th><td>2nd</td><td>4th</td><td>Down 2 places</td></tr>
+          <tr><th scope="row">Campus shuttle</th><td>3rd</td><td>3rd</td><td>No change</td></tr>
+          <tr><th scope="row">Walking</th><td>4th</td><td>2nd</td><td>Up 2 places</td></tr>
+        </tbody>
+      </table>
+    </div>
     <p>All values are assumed minutes. Walking moves from fourth to second, while the bus moves from second to fourth. This compares the supplied reference points, not the chance of one mode beating another on an actual journey.</p>
   </aside>
   <figure class="secondary">
@@ -44,8 +56,8 @@ python -m unittest -v</code></pre><p>Run these commands inside the project repos
 </section>
 
 <section id="next" class="next-section">
-  <p class="eyebrow">What comes next</p><h2>Test whether the story is clear.</h2>
-  <p>The analysis and initial website are prepared. The next step is a classmate review: can a reader identify the question, the bus-versus-walking finding and the hypothetical-data limitation? After receiving real feedback, I will make a focused improvement and record it in a descriptive commit. This step is pending, not a completed evaluation.</p>
+  <p class="eyebrow">Review and next steps</p><h2>Make the changing ranks visible.</h2>
+  <p>A classmate identified the question, the bus-versus-walking finding and the hypothetical-data limitation. Their suggestion was to show the complete P50 and P90 rankings so readers can see which positions change. The page already contained written rankings; in this follow-up, I added a side-by-side table with each mode's two ranks and its movement. The <a href="https://github.com/zzc1565545/data-science-portfolio/blob/main/PEER_REVIEW.md">classmate feedback record</a> documents the suggestion and this new improvement.</p>
   <p>Longer term, I would replace the assumed values with consented, comparable observations and examine full distributions before drawing practical conclusions.</p>
   <p class="ai-note"><strong>AI assistance:</strong> OpenAI Codex assisted with code, visualization design, drafting and checks. The work is presented as AI-assisted coursework, not as an independently conducted transport survey.</p>
 </section>

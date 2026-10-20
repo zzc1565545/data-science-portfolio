@@ -3,8 +3,8 @@
 Portfolio for **ZHU ZHICHENG**, prepared for CISC7204 Practice 09.
 
 - Project: [Hypothetical campus commute analysis](https://github.com/zzc1565545/data-science-project)
-- Intended GitHub Pages address: <https://zzc1565545.github.io/data-science-portfolio/>
-- Status: initial website prepared; classmate feedback and the feedback-driven improvement are pending.
+- Live GitHub Pages address: <https://zzc1565545.github.io/data-science-portfolio/>
+- Status: ongoing project; classmate feedback received and addressed with a new side-by-side ranking table.
 
 ## Publish
 
@@ -20,8 +20,9 @@ two charts, a research question, main findings, limitations, a repository link,
 and AI disclosure. All commute values are hypothetical and explicitly labelled.
 The project data contain no personal travel observations.
 
-`PEER_REVIEW.md` records the required feedback step. Do not mark it complete
-before obtaining real feedback and making a corresponding improvement.
+`PEER_REVIEW.md` records the classmate feedback supplied on 20 October 2026
+and the follow-up ranking-table improvement. Earlier written rankings were
+already present; the new table makes each mode's change in position explicit.
 
 ## Checks
 
